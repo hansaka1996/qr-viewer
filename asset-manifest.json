@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/qr-viewer/static/css/main.e6c13ad2.css",
+    "main.js": "/qr-viewer/static/js/main.d7e67646.js",
+    "index.html": "/qr-viewer/index.html",
+    "main.e6c13ad2.css.map": "/qr-viewer/static/css/main.e6c13ad2.css.map",
+    "main.d7e67646.js.map": "/qr-viewer/static/js/main.d7e67646.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d7e67646.js"
+  ]
+}
