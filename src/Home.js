@@ -6,7 +6,7 @@ function Home() {
 
   useEffect(() => {
     // Fetch data from the file in the public folder
-    fetch('/data.json')
+    fetch('data.json')
       .then(res => res.json())
       .then(data => setItems(data))
       .catch(err => console.error("Error fetching data:", err));

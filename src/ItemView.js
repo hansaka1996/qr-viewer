@@ -255,7 +255,7 @@ function ItemView() {
 
   useEffect(() => {
     setLoading(true);
-    fetch('/data.json')
+    fetch('data.json')
       .then(res => res.json())
       .then(data => {
         const foundItem = data.find(i => i.id === itemId);
