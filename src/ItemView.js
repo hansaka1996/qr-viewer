@@ -255,7 +255,7 @@ function ItemView() {
 
   useEffect(() => {
     setLoading(true);
-    fetch('data.json')
+    fetch(`${process.env.PUBLIC_URL}/data.json`)
       .then(res => res.json())
       .then(data => {
         const foundItem = data.find(i => i.id === itemId);
@@ -289,7 +289,7 @@ function ItemView() {
       <div style={cardStyle}>
         <div style={responsiveImageContainerStyle}>
           <img 
-            src={`/${item.imageUrl}`} 
+            src={`${process.env.PUBLIC_URL}/${item.imageUrl}`} 
             alt={item.commonName} 
             style={imageStyle}
             onLoad={() => setImageLoaded(true)}
