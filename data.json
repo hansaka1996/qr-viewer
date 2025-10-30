@@ -10,7 +10,7 @@
     "ediblePart": "–",
     "uses": "Used for timber, dye, and traditional medicine",
     "ecologicalImportance": "Supports pollinators, enriches soil nitrogen",
-    "imageUrl": "images/una.jpg"
+    "imageUrl": "images/una.webp"
   },
   {
     "id": "2",
@@ -23,7 +23,7 @@
     "ediblePart": "Fruit",
     "uses": "Fruits eaten fresh or dried, used in medicine",
     "ecologicalImportance": "Provides food for birds and wildlife",
-    "imageUrl": "images/veralu.jpg"
+    "imageUrl": "images/veralu.webp"
   },
   {
     "id": "3",
@@ -36,7 +36,7 @@
     "ediblePart": "Fruit pulp",
     "uses": "Used in cooking, medicine, and beverages",
     "ecologicalImportance": "Improves soil fertility, provides shade",
-    "imageUrl": "images/tamarind.jpg"
+    "imageUrl": "images/tamarind.webp"
   },
   {
     "id": "4",
@@ -49,7 +49,7 @@
     "ediblePart": "–",
     "uses": "Used in heart medicine and as timber",
     "ecologicalImportance": "Prevents soil erosion near rivers",
-    "imageUrl": "images/kubuk.jpg"
+    "imageUrl": "images/kubuk.webp"
   },
   {
     "id": "5",
@@ -62,7 +62,7 @@
     "ediblePart": "Fruit",
     "uses": "Eaten fresh, used for juices",
     "ecologicalImportance": "Provides shade, supports pollinators",
-    "imageUrl": "images/jambu.jpg"
+    "imageUrl": "images/jambu.webp"
   },
   {
     "id": "6",
@@ -75,7 +75,7 @@
     "ediblePart": "Fruit",
     "uses": "Used in medicine, pickles, and juices",
     "ecologicalImportance": "High ecological value, supports biodiversity",
-    "imageUrl": "images/nelli.jpg"
+    "imageUrl": "images/nelli.webp"
   },
   {
     "id": "7",
@@ -88,7 +88,7 @@
     "ediblePart": "–",
     "uses": "Ornamental and medicinal uses",
     "ecologicalImportance": "Habitat for birds and insects",
-    "imageUrl": "images/badidel.jpg"
+    "imageUrl": "images/badidel.webp"
   },
   {
     "id": "8",
@@ -101,7 +101,7 @@
     "ediblePart": "–",
     "uses": "Ornamental and cultural rituals",
     "ecologicalImportance": "Provides nectar to pollinators",
-    "imageUrl": "images/araliya.jpg"
+    "imageUrl": "images/araliya.webp"
   },
   {
     "id": "9",
@@ -114,7 +114,7 @@
     "ediblePart": "–",
     "uses": "National tree of Sri Lanka, used in construction",
     "ecologicalImportance": "Supports forest ecosystems",
-    "imageUrl": "images/na.jpg"
+    "imageUrl": "images/na.webp"
   },
   {
     "id": "10",
@@ -127,7 +127,7 @@
     "ediblePart": "–",
     "uses": "Religious significance, shade",
     "ecologicalImportance": "Improves air quality, supports birds",
-    "imageUrl": "images/bo.jpg"
+    "imageUrl": "images/bo.webp"
   },
   {
     "id": "11",
@@ -140,7 +140,7 @@
     "ediblePart": "–",
     "uses": "Shade and ornamental tree",
     "ecologicalImportance": "Nitrogen fixer, improves soil",
-    "imageUrl": "images/mara.jpg"
+    "imageUrl": "images/mara.webp"
   },
   {
     "id": "13",
@@ -153,7 +153,7 @@
     "ediblePart": "–",
     "uses": "High-quality timber",
     "ecologicalImportance": "Provides shade, windbreaks",
-    "imageUrl": "images/maimara.jpg"
+    "imageUrl": "images/maimara.webp"
   },
   {
     "id": "14",
@@ -166,7 +166,7 @@
     "ediblePart": "–",
     "uses": "Valuable timber",
     "ecologicalImportance": "Used in plantations for reforestation",
-    "imageUrl": "images/teak.jpg"
+    "imageUrl": "images/teak.webp"
   },
   {
     "id": "15",
@@ -179,7 +179,7 @@
     "ediblePart": "Seed",
     "uses": "Shade, edible nuts, ornamental",
     "ecologicalImportance": "Protects coastal soil, supports birds",
-    "imageUrl": "images/kottamba.jpg"
+    "imageUrl": "images/kottamba.webp"
   },
   {
     "id": "16",
@@ -192,7 +192,7 @@
     "ediblePart": "–",
     "uses": "Medicinal and timber uses",
     "ecologicalImportance": "Provides habitat for birds",
-    "imageUrl": "images/kirinuga.jpg"
+    "imageUrl": "images/kirinuga.webp"
   },
   {
     "id": "17",
@@ -205,7 +205,7 @@
     "ediblePart": "Fruit",
     "uses": "Used for food, oil, shelter",
     "ecologicalImportance": "Coastal protection, carbon storage",
-    "imageUrl": "images/coconut.jpg"
+    "imageUrl": "images/coconut.webp"
   },
   {
     "id": "18",
@@ -218,7 +218,7 @@
     "ediblePart": "Fruit & seeds",
     "uses": "Food, timber, animal feed",
     "ecologicalImportance": "Carbon sequestration, shade",
-    "imageUrl": "images/kos.jpg"
+    "imageUrl": "images/kos.webp"
   },
   {
     "id": "19",
@@ -231,7 +231,7 @@
     "ediblePart": "Fruit",
     "uses": "Food and Ayurvedic medicine",
     "ecologicalImportance": "Supports wildlife and pollinators",
-    "imageUrl": "images/beli.jpg"
+    "imageUrl": "images/beli.webp"
   },
   {
     "id": "20",
@@ -244,7 +244,7 @@
     "ediblePart": "–",
     "uses": "Medicinal, pest control, shade",
     "ecologicalImportance": "Improves soil quality, insect repellent",
-    "imageUrl": "images/kohomba.jpg"
+    "imageUrl": "images/kohomba.webp"
   },
   {
     "id": "21",
@@ -257,7 +257,7 @@
     "ediblePart": "Fruit",
     "uses": "Fruit, shade, timbe",
     "ecologicalImportance": "",
-    "imageUrl": "images/mango.jpg"
+    "imageUrl": "images/mango.webp"
   },
   {
     "id": "22",
@@ -270,7 +270,7 @@
     "ediblePart": "–",
     "uses": "Used for timber, furniture, and traditional medicine",
     "ecologicalImportance": "Provides habitat for birds and insects, supports dry-zone ecosystems",
-    "imageUrl": "images/hik.jpg"
+    "imageUrl": "images/hik.webp"
   },
   {
     "id": "23",
@@ -283,7 +283,7 @@
     "ediblePart": "_",
     "uses": "ornamental tree,timber,",
     "ecologicalImportance": "providing habitat, supporting wildlife through its fruit, and contributing to the health of forest ecosystems.",
-    "imageUrl": "images/pihimbiya.jpg"
+    "imageUrl": "images/pihimbiya.webp"
   },
   {
     "id": "24",
@@ -296,7 +296,7 @@
     "ediblePart": "_",
     "uses": "Biofuel,Traditional medicine,Green manure,Landscaping",
     "ecologicalImportance": "Land restoration,Erosion control,Nitrogen fixation",
-    "imageUrl": "images/karanda.jpg"
+    "imageUrl": "images/karanda.webp"
   },
   {
     "id": "25",
@@ -309,6 +309,6 @@
     "ediblePart": "Fruit",
     "uses": "Antioxidant effects,Wound healing,Timber,Ornamental value",
     "ecologicalImportance": "Soil and water conservation,Supporting biodiversity,Climate regulation",
-    "imageUrl": "images/ketakela.jpg"
+    "imageUrl": "images/ketakela.webp"
   }
 ]
