@@ -1,154 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import { useParams, Link } from 'react-router-dom'; // Import Link
-
-// function ItemView() {
-//   const { itemId } = useParams();
-//   const [item, setItem] = useState(null);
-//   const [loading, setLoading] = useState(true);
-
-//   // --- NEW STYLES ---
-
-//   const containerStyle = {
-//     background: '#ffffff',
-//     border: '1px solid #e0e0e0',
-//     borderRadius: '12px',
-//     boxShadow: '0 5px 15px rgba(0,0,0,0.08)',
-//     overflow: 'hidden', // To keep rounded corners with the image
-//     margin: '20px auto'
-//   };
-
-//   const imageStyle = {
-//     width: '100%',
-//     height: 'auto',
-//     display: 'block'
-//   };
-
-//   const contentStyle = {
-//     padding: '25px'
-//   };
-
-//   const titleStyle = {
-//     fontSize: '2.2rem',
-//     fontWeight: 'bold',
-//     color: '#2c2c2c',
-//     marginBottom: '5px'
-//   };
-
-//   const commonNameStyle = {
-//     fontSize: '1.4rem',
-//     color: '#555',
-//     marginBottom: '20px',
-//     fontStyle: 'italic'
-//   };
-
-//   const detailsContainerStyle = {
-//     display: 'grid',
-//     // Creates two columns: 1st is 120px wide, 2nd takes the rest
-//     gridTemplateColumns: '120px auto', 
-//     gap: '15px' // Space between rows and columns
-//   };
-
-//   const backLinkStyle = {
-//     display: 'inline-block',
-//     marginTop: '25px',
-//     textDecoration: 'none',
-//     color: '#007bff',
-//     fontWeight: 'bold'
-//   };
-
-//   // --- UPDATED HELPER COMPONENT ---
-
-//   // This is a new, styled component for each data row
-//   const DetailRow = ({ label, value }) => {
-//     // Don't render the row if the value is empty, '–', or '_'
-//     if (!value || value.trim() === '–' || value.trim() === '_') {
-//       return null;
-//     }
-    
-//     // Style for the 'Label' (e.g., "Family")
-//     const labelStyle = {
-//       fontWeight: 'bold',
-//       color: '#333',
-//       fontSize: '0.95rem'
-//     };
-
-//     // Style for the 'Value' (e.g., "Fabaceae")
-//     const valueStyle = {
-//       color: '#555',
-//       fontSize: '0.95rem',
-//       lineHeight: '1.5'
-//     };
-
-//     return (
-//       <>
-//         {/* We return two grid items: the label and the value */}
-//         <div style={labelStyle}>{label}</div>
-//         <div style={valueStyle}>{value}</div>
-//       </>
-//     );
-//   };
-
-//   // --- END OF STYLES ---
-
-
-//   useEffect(() => {
-//     setLoading(true);
-//     fetch('/data.json')
-//       .then(res => res.json())
-//       .then(data => {
-//         const foundItem = data.find(i => i.id === itemId);
-//         setItem(foundItem);
-//         setLoading(false);
-//       })
-//       .catch(err => {
-//         console.error("Error fetching item:", err);
-//         setLoading(false);
-//       });
-//   }, [itemId]);
-
-//   if (loading) {
-//     return <div style={{ textAlign: 'center', fontSize: '1.5rem' }}>Loading...</div>;
-//   }
-
-//   if (!item) {
-//     return <div style={{ textAlign: 'center', fontSize: '1.5rem', color: 'red' }}>Item not found.</div>;
-//   }
-
-//   return (
-//     <div style={containerStyle}>
-//       {/* Image is placed outside the padding */}
-//       <img 
-//         src={`/${item.imageUrl}`} 
-//         alt={item.commonName} 
-//         style={imageStyle} 
-//       />
-      
-//       <div style={contentStyle}>
-//         <h1 style={titleStyle}>{item.sinhalaName}</h1>
-//         <h2 style={commonNameStyle}>{item.commonName}</h2>
-        
-//         {/* All details go inside this new grid container */}
-//         <div style={detailsContainerStyle}>
-//           <DetailRow label="Scientific Name" value={item.scientificName} />
-//           <DetailRow label="Family" value={item.family} />
-//           <DetailRow label="Type" value={item.type} />
-//           <DetailRow label="Edibility" value={item.edibility} />
-//           <DetailRow label="Edible Part" value={item.ediblePart} />
-//           <DetailRow label="Uses" value={item.uses} />
-//           <DetailRow label="Ecological" value={item.ecologicalImportance} />
-//         </div>
-        
-//         <Link to="/" style={backLinkStyle}>
-//           &larr; Back to Home
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default ItemView;
-
-
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
@@ -367,7 +216,8 @@ function ItemView() {
   const DetailCard = ({ label, value, icon }) => {
     const [isHovered, setIsHovered] = useState(false);
 
-    if (!value || value.trim() === 'â€"' || value.trim() === '_') {
+    // --- THIS IS THE FIX ---
+    if (!value || value.trim() === '–' || value.trim() === '_') {
       return null;
     }
 
@@ -452,7 +302,8 @@ function ItemView() {
             <h2 style={responsiveCommonNameStyle}>{item.commonName}</h2>
           </div>
 
-          {item.uses && item.uses.trim() !== 'â€"' && item.uses.trim() !== '_' && (
+          {/* --- THIS IS THE SECOND FIX --- */}
+          {item.uses && item.uses.trim() !== '–' && item.uses.trim() !== '_' && (
             <div style={responsiveUsesCardStyle}>
               <div style={labelStyle}>💡 Uses & Benefits</div>
               <p style={usesTextStyle}>{item.uses}</p>
