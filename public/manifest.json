@@ -1,6 +1,7 @@
 {
-"short_name": "Tree Viewer",
-  "name": "Tree QR Viewer",
+  "short_name": "Tree Info",
+  "name": "Sri Lanka Tree Information",
+  "description": "Discover and learn about trees in Sri Lanka",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#667eea",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
 }
